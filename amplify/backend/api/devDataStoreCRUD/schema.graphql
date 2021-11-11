@@ -1,0 +1,5 @@
+type TypeObject @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  value: String
+}
+ 
